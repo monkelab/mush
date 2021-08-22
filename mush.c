@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-#define RL_BUFFER 1024
+#define RL_BUFFER 32768
 char* mush_read_line(void) {
 
     int bufsize = RL_BUFFER;
@@ -49,7 +49,7 @@ char* mush_read_line(void) {
     }
 }
 
-#define TOK_BUFSIZE 64
+#define TOK_BUFSIZE 256
 #define TOK_DELIM " \t\r\n\a"
 
 char** mush_split_line(char* line) {
