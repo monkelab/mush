@@ -189,7 +189,7 @@ void mush_loop(void) {
     char** args;
     int status;
 
-    while (status) {
+    do {
         printf("> ");
         line = mush_read_line();
         args = mush_split_line(line);
@@ -197,7 +197,7 @@ void mush_loop(void) {
 
         free(line);
         free(args);
-    }
+    } while (status);
 }
 
 
