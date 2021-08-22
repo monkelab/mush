@@ -7,7 +7,7 @@
 #define RL_BUFFER 32768
 char* mush_read_line(void) {
 
-    int bufsize = RL_BUFFER;
+    unsigned int bufsize = RL_BUFFER;
     int position = 0;
 
     char* buffer = malloc(sizeof(char) * bufsize);
