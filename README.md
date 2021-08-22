@@ -6,13 +6,14 @@ The ultimate shell for monkes.
 
 Features:
 
-[x] Executing commands
-[x] Built-in commands
-    [x] cd
-    [x] help
-    [x] exit
-[ ] Language and interpreter
-[ ] Support for script files
-[ ] Support for config fles
+[x] Executing commands <br>
+[x] Built-in commands <br>
+    [x] cd <br>
+    [x] help <br>
+    [x] exit <br>
+[ ] Language and interpreter <br>
+[ ] Support for script files <br>
+[ ] Support for config fles <br>
+[ ] History file with up arrow support <br>
 
 (I'll try to add these missing features swiftly)
