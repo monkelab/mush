@@ -17,3 +17,6 @@ Features:
 * [ ] History file with up arrow support <br>
 
 (I'll try to add these missing features swiftly)
+
+Sense mush is currently lacking, if you wish to use it, I recommend appending it to your .bashrc file or any other method that does not actually change your shell
+but runs the mush executable.
