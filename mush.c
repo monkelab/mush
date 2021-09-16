@@ -154,7 +154,7 @@ int mush_cd(char** args) {
 
 int mush_help(char** args) {
     printf("Monkelab's Mush\n");
-    printf("Type stuff and hit return.\n");
+    printf("Type stuff and hit return (or enter).\n");
 
     for (int i = 0; i < mush_num_builtins(); i++) {
         printf("\t%s\n", builtin_str[i]);
