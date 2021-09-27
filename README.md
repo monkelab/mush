@@ -20,3 +20,6 @@ Features:
 
 Sense mush is currently lacking, if you wish to use it, I recommend appending it to your .bashrc file or any other method that does not actually change your shell
 but runs the mush executable.
+
+## Screenshot
+![Mush screenshot on Termux](screenshot.png)
